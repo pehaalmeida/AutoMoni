@@ -5,7 +5,7 @@ Este sistema foi desenvolvido para monitorar um endereço IP específico dentro 
 
 ## 🔹 Funcionalidades  
 - **📡 Monitoramento contínuo**: verifica periodicamente a conectividade do IP digitado.  
-- **📜 Registro de erros**: cada falha de conexão é registrada em um arquivo de log dentro de uma pasta específica.  
+- **📜 Registro de erros**: cada falha de conexão é registrada em um arquivo de log dentro de uma pasta específica. (C:\AUTOMONI\logs\)
 - **📊 Contador de falhas**: exibe na tela o número total de erros ocorridos.  
 - **🕒 Registro detalhado**: cada entrada no log contém a data e hora do erro, facilitando a análise posterior.  
 
