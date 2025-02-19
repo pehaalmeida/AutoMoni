@@ -83,7 +83,7 @@ if /i "%StartMONITOR%"=="no" goto HOMEPAG
 REM Base de Dados
 
 set AutoMoniVer=1.0.3.1
-mkdir C:\linxRC\AUTOMONI\logs\
+mkdir C:\AUTOMONI\logs\
 REM mkdir C:\linxRC\AUTOMONI\logs\%SiteNome%
 
 REM set SiteMonitor=192.168.168.240
@@ -152,7 +152,7 @@ echo.
 echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 echo.
 set /a QntTesteErro= QntTesteErro+1
-echo REGISTRO DE ERRO: VERSÃO DO AUTOMONI:%AutoMoniVer%  REGISTRO: %SiteNome% - IP: Monitorada %SiteMonitor% - DATA E HORA DO ERRO: %date% %time:~0,2%:%time:~3,2%:%time:~6,2% >> C:\linxRC\AUTOMONI\logs\%DATAHOJE%_%SiteNome%.txt
+echo REGISTRO DE ERRO: VERSÃO DO AUTOMONI:%AutoMoniVer%  REGISTRO: %SiteNome% - IP: Monitorada %SiteMonitor% - DATA E HORA DO ERRO: %date% %time:~0,2%:%time:~3,2%:%time:~6,2% >> C:\AUTOMONI\logs\%DATAHOJE%_%SiteNome%.txt
 timeout 10 && GOTO :MONITOR
 GOTO :MONITOR
 
